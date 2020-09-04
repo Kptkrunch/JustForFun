@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from './Components/Header.jsx';
+// import Carousel from './Components/Carousel.jsx';
 
 class App extends Component {
 
@@ -15,14 +17,11 @@ class App extends Component {
     render() {
         return (
 
-            <div>
+            <div className="appContainer">
                 <div className="header">
-
+                    <Header />
                 </div>
                 <div className="mainContainer">
-                    <div className="mainCarousel">
-
-                    </div>
                 </div>
 
             </div>
