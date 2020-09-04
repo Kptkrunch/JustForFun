@@ -7,7 +7,8 @@
     "test": "jest --coverage",
     "updateSnap": "npm test -- -u",
     "build": "webpack -w --config webpack.config.js --mode production",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "server-start": "nodemon server/server.js"
   },
   "jest": {
     "collectCoverage": true,
@@ -26,7 +27,11 @@
   },
   "homepage": "https://github.com/Kptkrunch/hratx48-mini-apps-2#readme",
   "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
     "hooks": "^0.3.2",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.3",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
