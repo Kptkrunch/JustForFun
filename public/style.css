@@ -1,1 +1,38 @@
-/* Your wonderful styles here */
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    z-index: 100;
+    background-color: transparent;
+}
+
+canvas {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: url('#goo');
+    z-index: -1;
+}
+
+/* ============================================= */
+/* mainContainer styles */
+/* ============================================= */
+
+.header {
+
+    background-color: violet;
+}
+
+.mainContainer {
+
+    background-color: red;
+}
+
+.mainCarousel {
+
+    background-color: yellow;
+}

@@ -1,13 +1,34 @@
-import React, { useState, useEffect } from 'react';
+import React, { Component } from 'react';
 
-const App = () => {
+class App extends Component {
 
-    return (
+    constructor(props) {
+        super(props);
+        this.state = {
 
-        <div>
-            <h1>Hello World</h1>
-        </div>
-    )
+        }
+    }
+
+    componentDidMount() {
+    }
+
+    render() {
+        return (
+
+            <div>
+                <div className="header">
+
+                </div>
+                <div className="mainContainer">
+                    <div className="mainCarousel">
+
+                    </div>
+                </div>
+
+            </div>
+        )
+    }
+
 }
 
 export default App;
