@@ -19,7 +19,7 @@ class App extends Component {
 
             <div className="appContainer">
                 <div className="header">
-                    <Header />
+                    {/* <Header /> */}
                 </div>
                 <div className="mainContainer">
                 </div>

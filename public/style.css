@@ -43,7 +43,7 @@ canvas {
     max-width: 1300px;
     height: 150px;
     background-color: transparent;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .outterButtonContainer {
@@ -84,7 +84,7 @@ canvas {
     max-width: 1300px;
     height: 100%;
     background-color: transparent;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .mainCarousel {

@@ -4,7 +4,6 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 canvas.style.background = "transparent";
 
-
 const mouse = {
     x: undefined,
     y: undefined,
@@ -34,7 +33,7 @@ class ContainerL {
     }
 
     draw() {
-        ctx.fillStyle = 'black';
+        ctx.fillStyle = 'grey';
         // ctx.beginPath();
         ctx.fillRect(this.x, this.y, this.width, this.height);
         // ctx.closePath();
@@ -50,7 +49,7 @@ const createContainersL = () => {
         let sideMargin = 158;
         let containerMargin = canvas.width * .20;
         let y = 150;
-        let x = sideMargin + ((50 + containerMargin) * i);
+        let x = sideMargin + ((100 + containerMargin) * i);
         let height = 300;
         let width = canvas.width * .20;
         containersL.push(new ContainerL(x, y, width, height));
@@ -58,7 +57,7 @@ const createContainersL = () => {
     }
 }
 
-// createContainersL();
+createContainersL();
 
 const drawContainersL = () => {
 
