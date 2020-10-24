@@ -1,37 +1,22 @@
 {
-  "name": "challenge_1",
+  "name": "portfolio_page",
   "version": "1.0.0",
-  "description": "Historical event finder",
+  "description": "Joshua Edwards personal portfolio page",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "updateSnap": "npm test -- -u",
     "build": "webpack -w --config webpack.config.js --mode production",
     "start": "webpack-dev-server --open",
-    "server-start": "nodemon server/server.js"
-  },
-  "jest": {
-    "collectCoverage": true,
-    "coverageReporters": [
-      "html"
-    ]
+    "server": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kptkrunch/hratx48-mini-apps-2.git"
+    "url": "https://github.com/Kptkrunch/PortfolioPage"
   },
   "author": "Joshua Edwards",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Kptkrunch/hratx48-mini-apps-2/issues"
-  },
-  "homepage": "https://github.com/Kptkrunch/hratx48-mini-apps-2#readme",
+  "homepage": "https://github.com/Kptkrunch/PortfolioPage",
   "dependencies": {
-    "axios": "^0.20.0",
     "express": "^4.17.1",
-    "hooks": "^0.3.2",
-    "mongodb": "^3.6.1",
-    "mongoose": "^5.10.3",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -40,7 +25,6 @@
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
-    "@types/jest": "^26.0.5",
     "babel-loader": "^8.1.0",
     "react-test-renderer": "^16.13.1",
     "webpack": "^4.43.0",
